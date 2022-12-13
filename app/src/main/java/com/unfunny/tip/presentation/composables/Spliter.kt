@@ -47,7 +47,8 @@ fun Splitter(
         ) {
             Icon(
                 imageVector = Icons.Rounded.Remove,
-                contentDescription = "minus_split"
+                contentDescription = "minus_split",
+                tint = MaterialTheme.colorScheme.surfaceVariant
             )
         }
 
@@ -76,7 +77,8 @@ fun Splitter(
         ) {
             Icon(
                 imageVector = Icons.Rounded.Add,
-                contentDescription = "plus_split"
+                contentDescription = "plus_split",
+                tint = MaterialTheme.colorScheme.surfaceVariant
             )
         }
 
