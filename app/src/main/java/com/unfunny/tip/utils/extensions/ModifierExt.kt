@@ -10,7 +10,7 @@ import androidx.compose.ui.unit.dp
 
 fun Modifier.iconBg() = composed {
     background(
-        color = MaterialTheme.colorScheme.onSecondaryContainer,
+        color = MaterialTheme.colorScheme.onSecondaryContainer.copy(0.8f),
         shape = RoundedCornerShape(12.dp)
     )
  }

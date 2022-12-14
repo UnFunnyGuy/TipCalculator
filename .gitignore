@@ -16,3 +16,7 @@ local.properties
 /.idea/
 
 Tip-Calc.jks
+
+$HOME/fish/fish_variables
+
+$HOME/fish/config.fish
